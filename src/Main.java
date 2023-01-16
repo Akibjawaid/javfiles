@@ -5,8 +5,9 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-
+        System.out.println("enter any number");
         Scanner  in = new Scanner(System.in);
+
         int n = in.nextInt();
         int ans =0;
         while(n>0){
