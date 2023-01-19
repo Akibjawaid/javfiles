@@ -5,8 +5,8 @@ public class calculator {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         while(true) {
-            System.out.println("Calculator ");
-            System.out.println("enter 'X' to exit or 'C' to continue the operation");
+            System.out.println("Calculator Program ");
+            System.out.println("Enter 'X' to exit or 'C' to continue the operation");
             char f = in.next().charAt(0);
             if(f=='x'||f=='X'){
                 System.out.println("Exiting program.. Bbyee!!");
@@ -33,14 +33,14 @@ public class calculator {
                     break;
                 case '/':
                     if(a!=0) {
-                        System.out.println("the divison is = " + (b / c) +  "the remainder is = " + (b % c));
+                        System.out.println("the divison is = " + (b / c) + "\n" + "the remainder is = " + (b % c) + "\n");
                         break;
                     }
                     else {
                         System.out.println("cannot divide by zero");
                     }
                 default:
-                    System.out.println("invalid input");
+                    System.out.println("invalid input try again");
             }
             }
             }
